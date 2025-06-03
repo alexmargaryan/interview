@@ -1,5 +1,6 @@
 import PreventDefault from "./examples/PreventDefault";
 import StopPropagation from "./examples/StopPropagation";
+import WebWorker from "./examples/WebWorker";
 
 function App() {
   return (
@@ -9,6 +10,11 @@ function App() {
       <br />
       <br />
       <StopPropagation />
+      <br />
+      <br />
+      <WebWorker />
+      <br />
+      <br />
     </>
   );
 }
